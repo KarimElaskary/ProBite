@@ -1,5 +1,5 @@
 // Pizza
-import tortillaChickenPizza from '../assets/recipes/pizza/tortillaChickenPizza.png'
+import tortillaChickenPizza from '../assets/recipes/pizza/tortillachickenpizza.png'
 import oatspizzabase from '../assets/recipes/pizza/oatspizzabase.png'
 import cauliflowerpizza from '../assets/recipes/pizza/cauliflowerpizza.png'
 import highproteinmargherita from '../assets/recipes/pizza/highproteinmargherita.png'
