@@ -20,6 +20,40 @@ import eggturkeybreakfastsandwich from "../assets/recipes/burger/eggturkeybreakf
 import shawarmawraplight from "../assets/recipes/burger/shawarmawraplight.jpeg";
 import chickenclublowcalorie from "../assets/recipes/burger/chickenclublowcalorie.jpeg";
 import phillysteakhealthywrap from "../assets/recipes/burger/phillysteakhealthywrap.jpeg";
+// Pasta
+import creamypasta from "../assets/recipes/pasta/creamypasta.jpeg";
+import whitesaucechickenpasta from "../assets/recipes/pasta/whitesaucechickenpasta.jpeg";
+import proteinmacandcheese from "../assets/recipes/pasta/proteinmacandcheese.jpeg";
+import pastabologneseleanbeef from "../assets/recipes/pasta/pastabologneseleanbeef.jpeg";
+import shrimppastalight from "../assets/recipes/pasta/shrimppastalight.jpeg";
+import chickenalfredohealthy from "../assets/recipes/pasta/chickenalfredohealthy.jpeg";
+import highproteinlasagna from "../assets/recipes/pasta/highproteinlasagna.jpeg";
+// Rice
+import ricechickenbowl from "../assets/recipes/rice/ricechickenbowl.jpeg";
+import mexicanburritobowl from "../assets/recipes/rice/mexicanburritobowl.jpeg";
+import friedricehealthy from "../assets/recipes/rice/friedricehealthy.jpeg";
+// Chicken
+import kfcairfryerchicken from "../assets/recipes/chicken/kfcairfryerchicken.jpeg";
+import chickenstripsoven from "../assets/recipes/chicken/chickenstripsoven.jpeg";
+import healthynuggets from "../assets/recipes/chicken/healthynuggets.jpeg";
+import shawarmabowl from "../assets/recipes/chicken/shawarmabowl.jpeg";
+import chickenfajitalight from "../assets/recipes/chicken/chickenfajitalight.jpeg";
+import healthykofta from "../assets/recipes/chicken/healthykofta.jpeg";
+import grilledchickenmealprepbox from "../assets/recipes/chicken/grilledchickenmealprepbox.jpeg";
+import healthyhotdogwrap from "../assets/recipes/chicken/healthyhotdogwrap.jpeg";
+import proteinquesadilla from "../assets/recipes/chicken/proteinquesadilla.jpeg";
+import chickentacolowcalorie from "../assets/recipes/chicken/chickentacolowcalorie.jpeg";
+// Dessert
+import proteinbrownies from "../assets/recipes/dessert/proteinbrownies.jpeg";
+import bakedoatscake from "../assets/recipes/dessert/bakedoatscake.jpeg";
+import mugcakeprotein from "../assets/recipes/dessert/mugcakeprotein.jpeg";
+import proteinpancakes from "../assets/recipes/dessert/proteinpancakes.jpeg";
+import greekyogurtcheesecake from "../assets/recipes/dessert/greekyogurtcheesecake.jpeg";
+import proteinicecream from "../assets/recipes/dessert/proteinicecream.jpeg";
+import dateproteinballs from "../assets/recipes/dessert/dateproteinballs.jpeg";
+import chocolateproteinmousse from "../assets/recipes/dessert/chocolateproteinmousse.jpeg";
+import lowcaloriecookies from "../assets/recipes/dessert/lowcaloriecookies.jpeg";
+import highproteintiramisulight from "../assets/recipes/dessert/highproteintiramisulight.jpeg";
 
 const recipes = [
   {
@@ -370,9 +404,10 @@ const recipes = [
   },
   {
     id: 21,
-    title: "Creamy Pasta بالزبادي اليوناني",
+    title: "Creamy Pasta with Greek Yogurt Sauce",
     category: ["chicken", "pasta"],
     calories: "380 kcal – 32g protein",
+    image: creamypasta,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 100 جم صدور دجاج مشوية
@@ -392,6 +427,7 @@ const recipes = [
     title: "White Sauce Chicken Pasta Light",
     category: ["chicken", "pasta"],
     calories: "400 kcal – 35g protein",
+    image: whitesaucechickenpasta,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 100 جم صدور دجاج
@@ -409,6 +445,7 @@ const recipes = [
     title: "Protein Mac & Cheese",
     category: ["pasta"],
     calories: "370 kcal – 30g protein",
+    image: proteinmacandcheese,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 30 جم جبنة موزاريلا لايت
@@ -426,6 +463,7 @@ const recipes = [
     title: "Pasta Bolognese Lean Beef",
     category: ["beef", "pasta"],
     calories: "420 kcal – 34g protein",
+    image: pastabologneseleanbeef,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 100 جم لحم بقري قليل الدهن
@@ -443,6 +481,7 @@ const recipes = [
     title: "Shrimp Pasta Light",
     category: ["pasta", "seafood"],
     calories: "350 kcal – 33g protein",
+    image: shrimppastalight,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 100 جم جمبري مقشر
@@ -461,6 +500,7 @@ const recipes = [
     title: "Chicken Alfredo Healthy",
     category: ["chicken", "pasta"],
     calories: "390 kcal – 36g protein",
+    image: chickenalfredohealthy,
     ingredients: `المكونات
 70 جم مكرونة قمح كامل
 100 جم صدور دجاج
@@ -478,6 +518,7 @@ const recipes = [
     title: "High Protein Lasagna",
     category: ["beef", "pasta"],
     calories: "410 kcal – 38g protein",
+    image: highproteinlasagna,
     ingredients: `المكونات
 2–3 شرائح مكرونة لازانيا قمح كامل
 100 جم لحم بقري قليل الدهن
@@ -495,6 +536,7 @@ const recipes = [
     title: "Rice Chicken Bowl",
     category: ["chicken", "rice"],
     calories: "400 kcal – 35g protein",
+    image: ricechickenbowl,
     ingredients: `المكونات
 70 جم أرز بني مطهو
 100 جم صدور دجاج مشوية
@@ -510,6 +552,7 @@ const recipes = [
     title: "Mexican Burrito Bowl",
     category: ["chicken", "beef", "rice"],
     calories: "420 kcal – 36g protein",
+    image: mexicanburritobowl,
     ingredients: `المكونات
 70 جم أرز بني مطهو
 100 جم صدور دجاج أو لحم مفروم قليل الدهن
@@ -526,6 +569,7 @@ const recipes = [
     title: "Fried Rice Healthy (Airfryer)",
     category: ["chicken", "rice"],
     calories: "360 kcal – 30g protein",
+    image: friedricehealthy,
     ingredients: `المكونات
 70 جم أرز بني مطهو
 100 جم صدور دجاج مقطعة مكعبات
@@ -541,6 +585,7 @@ const recipes = [
     title: "KFC Airfryer Chicken",
     category: ["chicken"],
     calories: "280 kcal – 35g protein",
+    image: kfcairfryerchicken,
     ingredients: `المكونات
 150 جم صدور دجاج مقطعة شرائح
 1 ملعقة صغيرة زيت زيتون
@@ -556,6 +601,7 @@ const recipes = [
     title: "Chicken Strips Oven",
     category: ["chicken"],
     calories: "260 kcal – 32g protein",
+    image: chickenstripsoven,
     ingredients: `المكونات
 150 جم صدور دجاج مقطعة أصابع
 1 ملعقة صغيرة زيت زيتون
@@ -572,6 +618,7 @@ const recipes = [
     title: "Healthy Nuggets",
     category: ["chicken"],
     calories: "240 kcal – 30g protein",
+    image: healthynuggets,
     ingredients: `المكونات
 150 جم صدور دجاج مفرومة
 1 بياض بيض
@@ -587,6 +634,7 @@ const recipes = [
     title: "Shawarma Bowl",
     category: ["chicken"],
     calories: "350 kcal – 38g protein",
+    image: shawarmabowl,
     ingredients: `المكونات
 120 جم صدور دجاج شرائح
 فلفل رومي وبصل مقطع
@@ -602,6 +650,7 @@ const recipes = [
     title: "Chicken Fajita Light",
     category: ["chicken", "wrap"],
     calories: "320 kcal – 34g protein",
+    image: chickenfajitalight,
     ingredients: `المكونات
 100 جم صدور دجاج شرائح
 فلفل رومي، بصل شرائح
@@ -617,6 +666,7 @@ const recipes = [
     title: "Healthy Kofta",
     category: ["beef"],
     calories: "300 kcal – 32g protein",
+    image: healthykofta,
     ingredients: `المكونات
 150 جم لحم بقري قليل الدهن مفروم
 بصلة صغيرة مبشورة
@@ -632,6 +682,7 @@ const recipes = [
     title: "Grilled Chicken Meal Prep Box",
     category: ["chicken", "meal-prep"],
     calories: "400 kcal – 40g protein",
+    image: grilledchickenmealprepbox,
     ingredients: `المكونات
 150 جم صدور دجاج مشوية
 ½ كوب بروكلي مسلوق
@@ -647,6 +698,7 @@ const recipes = [
     title: "Healthy Hotdog Wrap",
     category: ["turkey", "wrap"],
     calories: "270 kcal – 25g protein",
+    image: healthyhotdogwrap,
     ingredients: `المكونات
 1 نقانق دجاج أو ديك رومي
 تورتيلا قمح كامل
@@ -662,6 +714,7 @@ const recipes = [
     title: "Protein Quesadilla",
     category: ["chicken", "wrap"],
     calories: "330 kcal – 34g protein",
+    image: proteinquesadilla,
     ingredients: `المكونات
 1 تورتيلا قمح كامل
 80 جم صدور دجاج مشوية
@@ -677,6 +730,7 @@ const recipes = [
     title: "Chicken Taco Low Calorie",
     category: ["chicken", "wrap"],
     calories: "310 kcal – 32g protein",
+    image: chickentacolowcalorie,
     ingredients: `المكونات
 80 جم صدور دجاج مقطعة مكعبات
 1 تورتيلا صغيرة
@@ -692,6 +746,7 @@ const recipes = [
     title: "Protein Brownies",
     category: ["dessert", "sweet"],
     calories: "180 kcal – 15g protein",
+    image: proteinbrownies,
     ingredients: `المكونات
 40 جم بروتين شوكولاتة
 1 ملعقة كبيرة كاكاو خام
@@ -709,6 +764,7 @@ const recipes = [
     title: "Baked Oats Cake",
     category: ["dessert", "breakfast"],
     calories: "220 kcal – 18g protein",
+    image: bakedoatscake,
     ingredients: `المكونات
 40 جم شوفان مطحون
 1 بيضة
@@ -726,6 +782,7 @@ const recipes = [
     title: "Mug Cake Protein",
     category: ["dessert", "quick"],
     calories: "150 kcal – 12g protein",
+    image: mugcakeprotein,
     ingredients: `المكونات
 20 جم شوفان مطحون
 1 بيضة
@@ -742,6 +799,7 @@ const recipes = [
     title: "Protein Pancakes",
     category: ["breakfast", "sweet"],
     calories: "240 kcal – 22g protein",
+    image: proteinpancakes,
     ingredients: `المكونات
 40 جم شوفان مطحون
 1 بيضة + 1 بياض بيض
@@ -759,6 +817,7 @@ const recipes = [
     title: "Greek Yogurt Cheesecake",
     category: ["dessert", "sweet"],
     calories: "200 kcal – 17g protein",
+    image: greekyogurtcheesecake,
     ingredients: `المكونات
 100 جم زبادي يوناني لايت
 1 ملعقة كبيرة جبنة قريش
@@ -774,6 +833,7 @@ const recipes = [
     title: "Protein Ice Cream",
     category: ["dessert", "sweet"],
     calories: "160 kcal – 20g protein",
+    image: proteinicecream,
     ingredients: `المكونات
 1 سكوب بروتين فانيليا
 100 جم زبادي يوناني لايت
@@ -788,6 +848,7 @@ const recipes = [
     title: "Date Protein Balls",
     category: ["dessert", "snack"],
     calories: "190 kcal – 10g protein",
+    image: dateproteinballs,
     ingredients: `المكونات
 5 تمر متوسط الحجم
 20 جم بروتين فانيليا
@@ -802,6 +863,7 @@ const recipes = [
     title: "Chocolate Protein Mousse",
     category: ["dessert", "sweet"],
     calories: "170 kcal – 18g protein",
+    image: chocolateproteinmousse,
     ingredients: `المكونات
 1 سكوب بروتين شوكولاتة
 50 جم زبادي يوناني لايت
@@ -815,6 +877,7 @@ const recipes = [
     title: "Low Calorie Cookies",
     category: ["dessert", "sweet"],
     calories: "140 kcal – 12g protein",
+    image: lowcaloriecookies,
     ingredients: `المكونات
 40 جم شوفان مطحون
 1 بياض بيض
@@ -830,6 +893,7 @@ const recipes = [
     title: "High Protein Tiramisu Light",
     category: ["dessert", "sweet"],
     calories: "210 kcal – 20g protein",
+    image: highproteintiramisulight,
     ingredients: `المكونات
 100 جم زبادي يوناني لايت
 1 سكوب بروتين فانيليا

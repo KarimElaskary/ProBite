@@ -19,8 +19,8 @@ const RecipeCard = ({ recipe, onSelect }) => {
       )}
       
       <div className="p-8 relative z-10 flex flex-col flex-1 text-left">
-        <div className="flex justify-between items-start mb-6">
-          <span className="inline-flex items-center rounded-full bg-amber-100 px-3 py-1 text-[10px] uppercase tracking-widest font-bold text-amber-700 ring-1 ring-inset ring-amber-500/20">
+        <div className="flex items-center gap-3 flex-wrap mb-6">
+          <span className="inline-flex items-center rounded-full bg-amber-100 px-3 py-1 text-[10px] uppercase tracking-widest font-bold text-amber-700 ring-1 ring-inset ring-amber-500/20 shrink-0">
             {recipe.category || "Healthy"}
           </span>
           <span className="text-[11px] text-slate-500 font-bold uppercase tracking-wider">{recipe.calories} kcal</span>
